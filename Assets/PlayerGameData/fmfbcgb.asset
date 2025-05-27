@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ef399d10fda54b40a1b71e273256417, type: 3}
+  m_Name: fmfbcgb
+  m_EditorClassIdentifier: 
+  isFirstTimePlaying: 0
+  PlayerName: fmfbcgb
+  ExpNum: 889656
+  StarNum: 488378
+  ScNum: 4309520
+  GameCharacters:
+  - Character: {fileID: 11400000, guid: e78df73b72e47064d9ce04ea9abe6788, type: 2}
+    MeAvailable: 1
+  - Character: {fileID: 11400000, guid: 09b9bce8e33a55347a71236878959332, type: 2}
+    MeAvailable: 1
+  - Character: {fileID: 11400000, guid: a27d3177a9c58644189d8aff2b4e77f1, type: 2}
+    MeAvailable: 1
+  MusicVolum: 3
+  SfxVolum: 9
+  DropSpeed: 3
+  MusicTimeOffset: 0
+  isMvOn: 1

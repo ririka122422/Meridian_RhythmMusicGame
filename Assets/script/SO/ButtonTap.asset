@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35b6f1e7ea6ded646a37caf6f8a8cf6b, type: 3}
+  m_Name: ButtonTap
+  m_EditorClassIdentifier: 
+  Factory: {fileID: 11400000, guid: 03b509669a32a844fbfb4f2cdcbf5c14, type: 2}
+  normal: {fileID: 2100000, guid: fd769e938bf3316418ad431c88c6dc65, type: 2}
+  star: {fileID: 2100000, guid: 0704684e165f0c345aef49b38a473e59, type: 2}
+  SC_LV1: {fileID: 2100000, guid: 52b9ed2d490faf64286578590e6fe7d7, type: 2}
+  SC_LV2: {fileID: 2100000, guid: 90e8468c0c940cf4c90bec631dac541c, type: 2}
+  SC_LV3: {fileID: 2100000, guid: c8b39d4d6b2f95b4097c529dc0e0e139, type: 2}
+  SC_LV4: {fileID: 2100000, guid: d03e7cefd61813a41bdb72950203f6b5, type: 2}
+  SC_LV5: {fileID: 2100000, guid: b7b8aab9744380645bc0d56106049753, type: 2}
+  SC_LV6: {fileID: 2100000, guid: 7f49efe9a3b274f49b73e102c8275bd9, type: 2}
+  SC_LV7: {fileID: 2100000, guid: 28a8d6d0403631246995597b65eeadc3, type: 2}
+  Trash: {fileID: 2100000, guid: 3bf3c166dd1c0bd4596b215e4b9f768c, type: 2}
+  Hold: {fileID: 2100000, guid: cad572444fea7c9488627bd445efb4f0, type: 2}
+  Unknow: {fileID: 2100000, guid: 52049705c4f12684880d31cd331f72f0, type: 2}

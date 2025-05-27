@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6820a8bce39deb34d8b7fcf3982986c3, type: 3}
+  m_Name: "\u685C\u83EF\u6B8B\u97FF"
+  m_EditorClassIdentifier: 
+  MusicDisplayName: "\u685C\u83EF\u6B8B\u97FF"
+  Vocal: "\u6D60Mizuki"
+  Cover169: {fileID: 21300000, guid: c1cd3875e8d10c04f8acd338a6118aba, type: 3}
+  Music: {fileID: 8300000, guid: 49fb501de051a764b80b7a17b04171a6, type: 3}
+  MusicPreview: {fileID: 8300000, guid: 746dbcd91192d144bb9a69e9c52c68d8, type: 3}
+  MV: {fileID: 0}
+  meter: 4
+  bpm: 135
+  BeatOffset: 0
+  FinishBeatOffset: 4
+  EasyPlayable: 1
+  EasyLevel: 5
+  Easy: {fileID: 4900000, guid: 3a24cb4ad3ce67c40a1e381967656ed5, type: 3}
+  NormalPlayable: 1
+  NormalLevel: 8
+  Normal: {fileID: 4900000, guid: bfbcd7f6970b9204886a95690e0e3c4e, type: 3}
+  HardPlayable: 1
+  HardLevel: 10
+  Hard: {fileID: 4900000, guid: 6e6639471ce48d74f93855a821c700f9, type: 3}

@@ -1,0 +1,6 @@
+gacha 轉蛋、商店
+training 隨機在養成、背包、等檢視內容物之場景出現
+liveEnd 結束演出的結算頁面
+main 主頁面
+
+全部都可looping

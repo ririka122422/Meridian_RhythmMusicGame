@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6820a8bce39deb34d8b7fcf3982986c3, type: 3}
+  m_Name: "\u97FF\u5FF5Missing"
+  m_EditorClassIdentifier: 
+  MusicDisplayName: "\u97FF\u5FF5 Missing"
+  Vocal: "\u97FFHibiki"
+  Cover169: {fileID: 21300000, guid: 8818433ad6f5d0f4daa42b7ff2827bd2, type: 3}
+  Music: {fileID: 8300000, guid: 3dff4f6e9f8c1174f9cb16318313bc8d, type: 3}
+  MusicPreview: {fileID: 8300000, guid: fee96328e9216d8468ad8c8151de8a53, type: 3}
+  MV: {fileID: 0}
+  meter: 4
+  bpm: 184
+  BeatOffset: 1
+  FinishBeatOffset: 0
+  EasyPlayable: 0
+  EasyLevel: 0
+  Easy: {fileID: 4900000, guid: 24d0fe2c1ff2f764bb023bb20d17061d, type: 3}
+  NormalPlayable: 0
+  NormalLevel: 0
+  Normal: {fileID: 4900000, guid: 67429866b898baa4ea6ca67a36239ce9, type: 3}
+  HardPlayable: 0
+  HardLevel: 0
+  Hard: {fileID: 4900000, guid: 312c40a9290084f4a972203e9e9230ef, type: 3}

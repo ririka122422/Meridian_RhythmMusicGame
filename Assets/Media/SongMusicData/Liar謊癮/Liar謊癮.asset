@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6820a8bce39deb34d8b7fcf3982986c3, type: 3}
+  m_Name: "Liar\u8B0A\u766E"
+  m_EditorClassIdentifier: 
+  MusicDisplayName: "Liar\u8B0A\u766E"
+  Vocal: "\u714CKirali"
+  Cover169: {fileID: 21300000, guid: 526474a4784f7b743a26d626f92346aa, type: 3}
+  Music: {fileID: 8300000, guid: ea134aedf39fde94280b3cd703dc3fca, type: 3}
+  MusicPreview: {fileID: 8300000, guid: 197e71b7bb5dfef48bf94a5199c8a757, type: 3}
+  MV: {fileID: 0}
+  meter: 4
+  bpm: 113
+  BeatOffset: 0
+  FinishBeatOffset: 0
+  EasyPlayable: 1
+  EasyLevel: 2
+  Easy: {fileID: 4900000, guid: f965bd297abf9e0469123da78f2be803, type: 3}
+  NormalPlayable: 0
+  NormalLevel: 0
+  Normal: {fileID: 4900000, guid: 8352c8caf617a4048a90f6c61aaab52c, type: 3}
+  HardPlayable: 1
+  HardLevel: 6
+  Hard: {fileID: 4900000, guid: 4377f1dc871a1e640ab0a2dfdc5c7b7d, type: 3}

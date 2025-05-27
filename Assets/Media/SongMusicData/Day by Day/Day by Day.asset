@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6820a8bce39deb34d8b7fcf3982986c3, type: 3}
+  m_Name: Day by Day
+  m_EditorClassIdentifier: 
+  MusicDisplayName: Day by Day
+  Vocal: "\u6D60Mizuki"
+  Cover169: {fileID: 21300000, guid: 6c9505a6cd4f8424cb0103c243561590, type: 3}
+  Music: {fileID: 8300000, guid: 43000dea13098514bbc6a04a4574abc9, type: 3}
+  MusicPreview: {fileID: 8300000, guid: 4e8c5720c3428b549aead2736e01f604, type: 3}
+  MV: {fileID: 0}
+  meter: 4
+  bpm: 105
+  BeatOffset: 1
+  FinishBeatOffset: 0
+  EasyPlayable: 0
+  EasyLevel: 0
+  Easy: {fileID: 4900000, guid: b067b04d854376b419b9917a47be59c4, type: 3}
+  NormalPlayable: 0
+  NormalLevel: 0
+  Normal: {fileID: 4900000, guid: eb340d2162dce6443a55215b98b023da, type: 3}
+  HardPlayable: 0
+  HardLevel: 0
+  Hard: {fileID: 4900000, guid: f65b0a4a36cd537449af395c87c46c06, type: 3}

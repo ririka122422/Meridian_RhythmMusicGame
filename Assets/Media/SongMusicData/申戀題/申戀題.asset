@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6820a8bce39deb34d8b7fcf3982986c3, type: 3}
+  m_Name: "\u7533\u6200\u984C"
+  m_EditorClassIdentifier: 
+  MusicDisplayName: "\u7533\u6200\u984C(Forbidden Love)"
+  Vocal: "\u6D60Mizuki"
+  Cover169: {fileID: 21300000, guid: 48004e9425597734089bbf72f58fce3a, type: 3}
+  Music: {fileID: 8300000, guid: adee12b50b91f454e81ec9a801ad8ffa, type: 3}
+  MusicPreview: {fileID: 8300000, guid: 1be74173a6d5c314080eb2c2dbdf105a, type: 3}
+  MV: {fileID: 0}
+  meter: 4
+  bpm: 88
+  BeatOffset: 1
+  FinishBeatOffset: 0
+  EasyPlayable: 0
+  EasyLevel: 0
+  Easy: {fileID: 4900000, guid: cac7eb7f942e8054aab77f6429895b54, type: 3}
+  NormalPlayable: 0
+  NormalLevel: 0
+  Normal: {fileID: 4900000, guid: e9d2f30340a6f744789b3f8245028e6b, type: 3}
+  HardPlayable: 0
+  HardLevel: 0
+  Hard: {fileID: 4900000, guid: a815928629b4e8b4bab55cbc35db1829, type: 3}
