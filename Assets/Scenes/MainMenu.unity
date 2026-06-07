@@ -10176,7 +10176,7 @@ MonoBehaviour:
   _gameData: {fileID: 11400000, guid: a40f9ffadb1cdfb4ba295cbade060792, type: 2}
   _gameAudioManager: {fileID: 904982682}
   gameSceneUiManager: {fileID: 1788814983}
-  isFirstTimePlaying: 0
+  isFirstTimePlaying: 1
   NextMenu: null
   MusicVolum: 3
   SfxVolume: 9
