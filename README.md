@@ -1,61 +1,69 @@
-# Meridian — Rhythm Music Game
+# 子午計畫主題節奏音遊
 
-> **聲明：本專案為學生期末作業作品，純屬學術用途，不作任何商業營利使用。**
-> **Disclaimer: This project is a student final assignment created for academic purposes only. No commercial use or profit is intended.**
+> **聲明：本專案為學生期末作業之 Demo 作品，以子午計畫旗下虛擬偶像原創曲為主題製作之二創作品，純屬學術用途，不含任何商業營利行為。**
+> **Disclaimer: This project is a fan-made student final assignment based on original songs by the VTuber studio "子午計畫". It is created for academic purposes only. No commercial use or profit is intended.**
 
 ---
 
 ## 專案簡介
 
-**Meridian** 是一款以 Unity 開發的手機節奏音樂遊戲，玩家需在音樂節拍中點擊、滑動與長按下落的音符，挑戰各種難度的樂譜。遊戲除核心的音遊玩法外，還包含角色養成、扭蛋收集系統，以及一個內建的樂譜編輯器，讓玩家得以自製譜面。
+這是一款以 **子午計畫**（VT 工作室）旗下虛擬偶像原創曲為主題製作的二創節奏手機遊戲，適用於 Android 手機與平板觸控設備。
+
+玩家扮演**頻道管理員**，依照音樂節拍點擊下落的 Node，協助 Vtuber 完成歌唱演出。除核心音遊玩法外，遊戲還包含角色養成、SC 資金系統、扭蛋收集，以及一個內建的樂譜編輯器供玩家自製譜面。
+
+- 5 人團隊 · 歷時 4 週 · Demo 完成於 2025/01/06
+- 個人負責：核心節奏判定系統、角色解鎖機制、譜面編輯器實作
 
 ---
 
 ## 功能特色
 
 ### 🎵 音樂遊玩
-- 支援 **16 首歌曲**，風格多元（流行、電音、日系等）
+- 收錄 **15 首子午計畫原創歌曲**，涵蓋旗下各角色曲目
 - 每首歌提供 **三種難度**：Easy / Normal / Hard
+- 判定分為三段：**NEON**（最準）/ **GLOW**（微差）/ **VOID**（未命中）
+- 演出結果評級：**LIVE FINISH** / **FULL COMBO** / **MARVELOUS NEON**
 - 遊玩時同步播放 **MV 影片**（可於設定中關閉）
-- 音符類型包含：**單點（Tap）**、**滑動（Flick）**、**長按（Hold）**
+- 音符類型：單點（Tap）、滑動（Flick）、長按（Hold）
 
-### 🎭 角色系統
+### 🎭 角色與養成系統
+- 以子午計畫旗下虛擬偶像為主角，搭配劇情系統展開互動
 - 扭蛋（Gacha）機制抽取角色卡片
-- 角色養成與技能卡升級
-- 玩家經驗值與星數成長系統
+- 演出結算 **SC 資金**後可升級配備、開拓收益平台，解鎖新角色
 
 ### 🛠️ 樂譜編輯器
-- 內建樂譜製作工具（Music Sheet Setup Scene）
-- 支援自訂 BPM、節拍分割與音符排列
-- 即時預覽與播放功能
+- 內建樂譜製作工具，支援自訂 BPM 與音符排列
+- 玩家可自製譜面並匯出分享
 
 ### ⚙️ 其他設定
 - BGM / SFX 音量獨立調整
-- 下落速度調整
-- 幀率管理（FPS Manager）
+- 音符下落速度調整
+- MV開關
 
 ---
 
 ## 歌曲列表
 
-| # | 歌曲名稱 |
-|---|----------|
-| 1 | Day by Day |
-| 2 | Liar 謊癮 |
-| 3 | Siɹən |
-| 4 | 信號 Signal |
-| 5 | 夏夢 SummerDream |
-| 6 | 情緒廢物 EmotionalWaste |
-| 7 | 戀夏 Summer |
-| 8 | 暮光 Gloaming Light |
-| 9 | 未知未踏 アルスハイル |
-| 10 | 桜華残響 |
-| 11 | 漫夜 Sleepless |
-| 12 | 潜水花 |
-| 13 | 申戀題 |
-| 14 | 迷醉 Sangria |
-| 15 | 霓光 NeonLight |
-| 16 | 響念 Missing |
+| 角色 | 歌曲 | Easy | Normal | Hard |
+|------|------|:----:|:------:|:----:|
+| 浠 Mizuki | 未知未踏 アルスハイル | — | — | — |
+| | Day by Day | — | — | — |
+| | 申戀題 | — | — | — |
+| | 桜華残響 | 5 | 8 | 10 |
+| | Siɹən | — | — | 11 |
+| | 潜水花 | — | — | 9 |
+| 汐 Seki | 信號 Signal | — | — | — |
+| | 夏夢 SummerDream | — | — | — |
+| 響 Hibiki | 響念 Missing | — | — | — |
+| 霓 NEO(n) | 霓光 NeonLight | 3 | 5 | 7 |
+| | 戀夏 Summer | 4 | 6 | 8 |
+| 澪 Rei | 漫夜 Sleepless | 2 | — | — |
+| 煌 Kirali | Liar 謊癮 | 2 | — | 6 |
+| 扉暮 IANVS | 暮光 Gloaming Light | — | — | 8 |
+| 玥 Itsuki | 情緒廢物 EmotionalWaste | — | — | — |
+| 朔 Sakuro | 迷醉 Sangria | — | — | — |
+
+> 數字為難度標示，— 表示期末前尚未完成製作。
 
 ---
 
@@ -75,37 +83,19 @@
 - **MusicSheetSetupScene** — 樂譜編輯器
 
 ### 程式架構
-- 採用 **Singleton** 模式管理跨場景的全域狀態（`GameSceneManager`）
-- 以 **ScriptableObject** 儲存歌曲、角色、音符等資料設定
+- **Singleton** 模式管理跨場景全域狀態（`GameSceneManager`）
+- **ScriptableObject** 儲存歌曲、角色、音符等資料設定
 - 音效、UI、輸入、計分各自獨立管理，職責分離清晰
-
----
-
-## 專案結構
-
-```
-Assets/
-├── script/          # 所有 C# 腳本（核心、主選單、遊戲內、編輯器）
-├── Scenes/          # Unity 場景檔案
-├── Media/           # 歌曲音樂、影片、封面圖片
-├── Ui/              # UI 元件與 Prefab
-├── Character/       # 角色圖片資源
-├── Animations/      # 動畫資源
-├── VFX/             # 視覺特效
-├── Materials/       # 材質
-├── Font/            # 字型
-├── Settings/        # URP 渲染設定
-└── Resources/       # 執行時動態載入資源
-```
 
 ---
 
 ## 版權與聲明
 
-- 本專案為**學生期末作業**，製作目的為學術學習與展示，**不作任何商業用途**。
-- 遊戲內所使用之音樂、影像素材版權歸原著作權人所有，本專案不主張任何所有權。
+- 本專案為**學生期末作業 Demo**，製作目的為學術學習與展示，**不作任何商業用途**。
+- 遊戲內所使用之音樂、影像素材版權歸 **子午計畫** 及各原著作權人所有，本專案不主張任何所有權。
+- 本作品為粉絲二創，與子午計畫官方無任何隸屬關係。
 - 若有任何版權疑慮，請聯繫作者。
 
 ---
 
-*Meridian Rhythm Music Game — Student Final Project, 2026*
+*Meridian — 子午計畫主題節奏音遊 · Student Final Project Demo, 2025*
